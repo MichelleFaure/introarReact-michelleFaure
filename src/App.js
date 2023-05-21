@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { Header } from './components/Header';
+import { Card } from './components/Card';
+import {imagen1, imagen2, imagen3} from './assets/img'
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header title= "Galería de Imágenes con React"></Header>
+      <main className='contenedorCards'>
+        <Card url={imagen1} title= "Van Damme" description="Esta es la descripcion del perro 1" ></Card>
+        <Card url={imagen2} title= "Schwarzenegger" description="Esta es la descripcion del perro 2" ></Card>
+        <Card url={imagen3} title= "Stallone" description="Esta es la descripcion del perro 2" ></Card>
+      </main>
+      <Footer></Footer>
     </div>
   );
 }

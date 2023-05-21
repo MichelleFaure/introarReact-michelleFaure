@@ -1,0 +1,11 @@
+.titulo{
+    padding: 2rem 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.underline{
+    background-color: coral;
+    width: 500px;
+    height: 3px;
+    margin: auto;
+}

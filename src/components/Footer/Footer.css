@@ -1,0 +1,13 @@
+.footer{
+    margin-top: 5rem;
+    background-color: coral;
+}
+
+.footer p{
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+Button{
+    margin: 1rem;
+}
